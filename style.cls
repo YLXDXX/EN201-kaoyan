@@ -37,8 +37,9 @@ textwidth=144mm,
 \usepackage{xeCJKfntef}%添加下划线，利用此可以可以实现空白下划线跨行
 \usepackage{xcolor}%颜色相关
 
-
-
+%罗马数字大小写
+\newcommand{\lmx}[1]{\expandafter{\romannumeral #1\relax}}%罗马数字小写
+\newcommand{\lmd}[1]{\uppercase\expandafter{\romannumeral #1\relax}}%罗马数字大写
 
 
 %断词断字设置
